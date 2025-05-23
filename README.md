@@ -121,7 +121,7 @@ You can use [jordimas/whisper-ctranslate2](https://github.com/jordimas/whisper-c
 
 ## Model conversion
 
-When loading a model from its size such as `WhisperModel("large-v2")`, the correspondig CTranslate2 model is automatically downloaded from the [Hugging Face Hub](https://huggingface.co/guillaumekln).
+When loading a model from its size such as `WhisperModel("large-v2")`, the corresponding CTranslate2 model is automatically downloaded from the [Hugging Face Hub](https://huggingface.co/guillaumekln).
 
 We also provide a script to convert any Whisper models compatible with the Transformers library. They could be the original OpenAI models or user fine-tuned models.
 
